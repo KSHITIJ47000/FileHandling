@@ -1,29 +1,27 @@
-# FileHandlingUtility
+# File Handling Utility
 
-A simple Java program to demonstrate **file handling operations**:  
-- Writing to a text file  
-- Reading from a text file  
-- Modifying (appending) content to a text file  
+A small Java project demonstrating core file I/O operations and clean handling of text files.
 
----
+## Features
+- Create/write text files
+- Read file content line by line
+- Append content without overwriting existing data
+- Uses `FileWriter`, `FileReader`, and `BufferedReader`
 
-## 🚀 Features
-- **Write**: Creates a new text file and writes initial content.
-- **Read**: Reads the content of the file line by line.
-- **Modify / Append**: Adds new content to the file without overwriting existing data.
-- Uses `FileWriter`, `FileReader`, and `BufferedReader` for efficient I/O.
+## Tech Stack
+- Java
+- Java I/O (`java.io`)
+- JDK 8+
 
+## Learning Outcomes
+This project demonstrates practical use of Java file streams, buffered reading, exception handling, and basic application structure.
 
----
+## Run
+```bash
+git clone https://github.com/KSHITIJ47000/FileHandling.git
+cd FileHandling
+javac *.java
+java <MainClass>
+```
 
-## 🛠️ Requirements
-- **Java JDK 8** or later
-- Any Java IDE (IntelliJ IDEA, Eclipse, NetBeans) or terminal with `javac`
-
----
-
-## 📌 How to Run
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/<KSHITIJ47000>/<FileHandling>.git
-   cd <FileHandling>
+> Replace `<MainClass>` with the class containing the `main()` method.
